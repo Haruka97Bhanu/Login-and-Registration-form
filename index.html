@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Regestration Form</title>
+   <link rel="stylesheet" href="style.css">
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <script src="script.js"></script>   
+
+ 
+</head>
+<body>
+    <div class="main">
+        <div class="register">
+            <h2>Register Here</h2>
+            <form id="register" method="post">
+                <div class="input-box">
+                    <input type="text" placeholder="Enter Your First Name" required>
+                </div>          
+            <br>
+            <div class="input-box">
+            <input type="text" placeholder="Enter Your Last Name" required>
+            </div>
+            <br>          
+            <div class="input-box">
+                <input type="text" placeholder="Username" required>
+                <i class="bx bxs-user"></i>
+            </div>
+            <br>
+            <div class="input-box">
+                <input type="Password" placeholder="Password" required>
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+            <br>
+            <div class="input-box">
+                <input type="Password" placeholder="Confirm Password" required>
+                <i class="bx bxs-lock-alt"></i>
+            </div>           
+            <br><br>
+            <label> Gender</label>
+            <br>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" id="male">
+            &nbsp;
+            <span id="male">Male</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" id="female">
+            &nbsp;
+            <span id="female">Female</span>
+            <br>
+            <button type="submit"  class="btn">Login</button>
+            <!-- <input type="submit" value="Submit" name="submit" id="submit"> -->
+            </form>
+            <h3 id="newpage">Already A Member?</h3>
+            <a href="login.html">
+            <button>CLICK HERE</button>
+            </a>
+        
+        </div>
+    </div>
+    
+</body>
+</html>
